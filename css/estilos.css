@@ -3,17 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-.topo{
+.container-topo{
     height: 80px;
     width: 100%;
     background-color: #604829;
     position: fixed;
-    z-index: 1;
+    /*z-index: 10;*/
     display: flex;
     justify-content: space-between;
-    padding-left: 120px;
-    padding-right: 90px;
- } 
+    padding-left: 200px;
+    padding-right: 200px;
+        
+} 
  .logo{
     align-self: center;
  }
@@ -37,7 +38,21 @@
     font-weight: bold;
     color: #c4a47c;
     text-shadow: 4px 3px 2px  black ;
-    font-size: 15px;
-    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
     
+}
+.sessao-banner{
+    background-image: url('/img/parallax-imagem1.png');
+    height:  800px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sessao-banner h1{
+    color: #fff;
+    font-family: 'Fraunces';
+    font-size: 72px;
+
 }
