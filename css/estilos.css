@@ -43,8 +43,8 @@
     
 }
 .sessao-banner{
-    background-image: url('/img/parallax-imagem1.png');
     height:  800px;
+    background-image: url('/img/parallax-imagem1.png');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -55,4 +55,105 @@
     font-family: 'Fraunces';
     font-size: 72px;
 
+}
+.container_texto{
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container_texto h2{
+    margin: center;
+    color:#c4a47c;
+    font-family: 'Oswald', sans-serif;
+}
+.container_texto p{
+    padding: 0px 20px;
+    margin-top: 20px;
+    max-width: 1024px;
+    align-items: center;
+    color: #666; 
+    font-family: 'Lato', sans-serif;
+}
+.container_parallax_02,
+.container_parallax_03{
+    background-color: aquamarine;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container_parallax_02 h3,
+.container_parallax_03 h3{
+ color: #fff;
+ background-color: #604829;
+ padding: 10px;
+ font-family: 'Fraunces', serif; 
+ font-style: italic;
+
+}
+.container_parallax_02{
+     background-image: url("/img/parallax-imagem2.jpg");
+}
+.container_parallax_03{
+    background-image: url("/img/parallax-imagem3.jpg");
+}
+.container_parallax_04{
+    height: 100vh;
+    background-image: url("/img/parallax-imagem4.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container_parallax_04 h2,.container_parallax_04 div{
+    
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    background-color: #604829;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+
+}
+.container_parallax_04 iframe{
+    width: 1024px;
+    height: 350px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+.container_parallax_05{
+    height: 85vh;
+    background-image: url("/img/cafeteria.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.container_parallax_05 h2{
+    color: #fff;
+    
+}
+.lista{
+    background-color: aqua;
+    list-style: none;
+    color: #fff;
+    width: 768px;
+    margin: 100px;
+}
+.lista li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+
+}
+.lista div{
+    color: #fff;
+    width: 50px;
 }
